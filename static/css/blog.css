@@ -1,0 +1,130 @@
+h1 a {
+    color: #FCA205;
+    font-family: 'Lobster';
+}
+
+body {
+    padding-left: 15px;
+    font-family: 'Oswald', sans-serif;
+    background: url(/static/pic/body.jpg) #DEA049;
+}
+
+table {
+
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+th,td{
+      border: 1px solid #dfe2e5;
+      text-align: center;
+}
+
+.fon{
+  color: #000;
+  background:  url(/static/pic/fon.png) #B9BFBB;
+  width:320px;
+  height: auto;
+  border-radius: 5px;
+  -webkit-border-radius 5px;
+  -moz-border-radius 5px;
+  box-shadow: inset 0 0 20px ; /* Параметры тени */
+  -webkit-box-shadow: inset 0 0 20px ;
+  -moz-box-shadow: inset 0 0 20px ;
+
+}
+
+
+
+.ramka{
+  color: #fff;
+  background:  url(/static/pic/ramka.png) #131313;
+  border-radius: 5px;
+  -webkit-border-radius 5px;
+  -moz-border-radius 5px;
+  box-shadow: 0 0 10px #000;
+  -webkit-box-shadow: 0 0 10px #000;
+  -moz-box-shadow: 0 0 10px #000;
+  width:320px;
+  height: auto;
+  padding: 3px 20px 40px  20px;
+  margin: auto;
+
+  font-family: 'Oswald', sans-serif;
+}
+
+li{
+  height: 35px;
+  display: block;
+  margin-top: 1px;
+}
+.name{
+  float: left;
+  margin-left: 5px;
+  height: auto;
+  /*padding-top:auto;*/
+}
+.value{
+  width: 30px;
+  height: auto;
+  display: inline-block;
+  text-align: right;
+  float:right;
+}
+
+.header_list .values .value{
+}
+
+.values{
+  width: auto;
+  margin-right:  5px;
+  height: auto;
+  width: auto;
+  /*float:right;*/
+}
+ul{
+  padding: 0px;
+  height: auto;
+  display: block;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 0 0 10px rgba(0,0,0,0.5);
+  color: #000;
+}
+
+
+
+.button{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  background:  url(/static/pic/button.png) #F0EEEF;
+  width: 60px;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-border-radius 5px;
+  -moz-border-radius 5px;
+  box-shadow: 0 0 10px #000;
+  -webkit-box-shadow: 0 0 10px #000;
+  -moz-box-shadow: 0 0 10px #000;
+
+}
+
+.button:active{
+  box-shadow: inset 0 0 10px #7F7F7F ;
+  -webkit-box-shadow: inset 0 0 10px #7F7F7F ;
+  -moz-box-shadow: inset 0 0 10px #7F7F7F ;
+}
+
+.about{
+  width:320px;
+  margin:auto;
+}
+
+.list{
+  font-size: 9pt;
+}
+
+.icon_cloud{
+  height: auto;
+
+}

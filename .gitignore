@@ -1,0 +1,5 @@
+*.pyc
+*.pyo
+/blog_tmp/*
+/mysite/settings.py
+/migration/*

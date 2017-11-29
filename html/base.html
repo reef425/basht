@@ -1,0 +1,15 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather Bashkortostan</title>
+        <link rel="icon" href="{% static 'pic/favicon.png' %}" sizes="48x48" />
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+        <link href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Oswald&subset=latin,cyrillic" rel="stylesheet">
+    </head>
+    <body>
+            {% block content %}
+            {% endblock %}
+    </body>
+</html>
